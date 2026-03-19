@@ -1,0 +1,49 @@
+path,type,module,description
+_config/agent-manifest.csv,config,core,Registry of all configured agents
+_config/bmad-help.csv,config,core,Help routing system
+_config/task-manifest.csv,config,core,Registry of all core tasks
+_config/tool-manifest.csv,config,core,Manifest of standalone tools
+_config/skill-manifest.csv,config,core,Manifest of all available skills
+_config/workflow-manifest.csv,config,core,Manifest of all workflows
+_config/files-manifest.csv,config,core,Index of all important files
+_config/manifest.yaml,config,core,Master configuration manifest
+core/agents/prod-master.md,agent,core,Production master agent
+core/config.yaml,config,core,Core module configuration
+core/tasks/production-checklist/SKILL.md,skill,core,Production checklist skill
+core/tasks/adversarial-review/SKILL.md,skill,core,Adversarial review skill
+core/tasks/advanced-elicitation/SKILL.md,skill,core,Advanced elicitation skill
+core/tasks/incident-analysis/SKILL.md,skill,core,Incident analysis skill
+core/tasks/risk-assessment/SKILL.md,skill,core,Risk assessment skill
+core/tasks/knowledge-lookup/SKILL.md,skill,core,Knowledge lookup skill
+core/tasks/production-checklist/bmad-skill-manifest.yaml,manifest,core,Production checklist manifest
+core/tasks/adversarial-review/bmad-skill-manifest.yaml,manifest,core,Adversarial review manifest
+core/tasks/advanced-elicitation/bmad-skill-manifest.yaml,manifest,core,Advanced elicitation manifest
+core/tasks/incident-analysis/bmad-skill-manifest.yaml,manifest,core,Incident analysis manifest
+core/tasks/risk-assessment/bmad-skill-manifest.yaml,manifest,core,Risk assessment manifest
+core/tasks/knowledge-lookup/bmad-skill-manifest.yaml,manifest,core,Knowledge lookup manifest
+core/workflows/party-mode/workflow.md,workflow,core,Party mode workflow
+psm/config.yaml,config,psm,PSM module configuration
+psm/agents/architect.md,agent,psm,Architect agent
+psm/agents/sre.md,agent,psm,SRE agent
+psm/agents/security.md,agent,psm,Security agent
+psm/agents/mlops.md,agent,psm,MLOps agent
+psm/agents/bmad-skill-manifest.yaml,manifest,psm,PSM agents skill manifest
+psm/workflows/1-design/review-architecture/workflow.md,workflow,psm,Architecture review workflow
+psm/workflows/1-design/review-architecture/bmad-skill-manifest.yaml,manifest,psm,Architecture review manifest
+psm/workflows/2-build/setup-new-service/workflow.md,workflow,psm,Setup new service workflow
+psm/workflows/2-build/setup-new-service/bmad-skill-manifest.yaml,manifest,psm,Setup new service manifest
+psm/workflows/3-run/incident-response/workflow.md,workflow,psm,Incident response workflow
+psm/workflows/3-run/incident-response/bmad-skill-manifest.yaml,manifest,psm,Incident response manifest
+psm/workflows/3-run/production-readiness-review/workflow.md,workflow,psm,Production readiness review workflow
+psm/workflows/3-run/production-readiness-review/bmad-skill-manifest.yaml,manifest,psm,Production readiness review manifest
+psm/workflows/4-cross/security-audit/workflow.md,workflow,psm,Security audit workflow
+psm/workflows/4-cross/security-audit/bmad-skill-manifest.yaml,manifest,psm,Security audit manifest
+psm/workflows/5-specialized/mlops-deployment/workflow.md,workflow,psm,MLOps deployment workflow
+psm/workflows/5-specialized/mlops-deployment/bmad-skill-manifest.yaml,manifest,psm,MLOps deployment manifest
+psm/workflows/quick-flow/quick-diagnose/workflow.md,workflow,psm,Quick diagnostic workflow
+psm/workflows/quick-flow/quick-diagnose/bmad-skill-manifest.yaml,manifest,psm,Quick diagnose manifest
+psm/workflows/quick-flow/quick-review/workflow.md,workflow,psm,Quick review workflow
+psm/workflows/quick-flow/quick-review/bmad-skill-manifest.yaml,manifest,psm,Quick review manifest
+psm/data/project-context-template.md,template,psm,Project context template
+ide-configs/claude-code.yaml,config,core,Claude Code IDE configuration
+ide-configs/cursor.yaml,config,core,Cursor IDE configuration

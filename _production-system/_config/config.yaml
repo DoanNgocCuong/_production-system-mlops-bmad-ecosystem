@@ -1,0 +1,29 @@
+# ============================================================
+# Production Systems & MLOps — BMAD Module Configuration
+# Framework: BMAD-METHOD v6.2 (adapted)
+# ============================================================
+# SETUP: Edit these 4 fields when installing in a new project
+# ============================================================
+
+# --- USER CONFIG (EDIT THESE) ---
+project_name: "YOUR_PROJECT_NAME"           # ← Change to your project name
+user_name: "YOUR_NAME"                      # ← Change to your name
+communication_language: Vietnamese-English   # ← en | vi | Vietnamese-English
+document_output_language: English            # ← Language for generated docs
+
+# --- SKILL LEVEL ---
+user_skill_level: intermediate               # beginner | intermediate | advanced
+
+# --- PATHS (relative to this framework's root) ---
+output_folder: "{project-root}/_bmad-output"
+knowledge_base: "{project-root}/knowledge-base"
+# If knowledge base is external, use absolute or relative path:
+# knowledge_base: "/path/to/your/5 - Production Systems & MLOps"
+
+# --- SKILL GROUPS (DO NOT EDIT unless adding new domains) ---
+skill_groups:
+  DESIGN: [5.01, 5.02, 5.03]
+  BUILD: [5.04, 5.05, 5.06]
+  RUN: [5.07, 5.08, 5.09, 5.10]
+  CROSS: [5.11, 5.12, 5.13, 5.14]
+  SPECIALIZED: [5.15, 5.16, 5.17, 5.18, 5.19, 5.20]

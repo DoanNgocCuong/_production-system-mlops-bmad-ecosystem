@@ -1,0 +1,5 @@
+severity_level,user_impact,scope,duration_estimate,response_time_target,escalation_required
+SEV1,Complete outage / data loss,Platform-wide,Unknown / hours,Immediate (15 min),VP / Engineering leadership
+SEV2,Major degradation / partial outage,Multiple services,Minutes to hours,15-30 minutes,Engineering manager + on-call
+SEV3,Minor degradation / single service down,Single service,Minutes,1-2 hours,On-call engineer
+SEV4,No user impact / cosmetic / degraded performance,Internal / non-critical,Variable,Next business day,No escalation needed

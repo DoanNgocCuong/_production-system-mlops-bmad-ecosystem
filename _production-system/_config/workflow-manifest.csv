@@ -1,0 +1,10 @@
+name,description,trigger,agent,path
+review-architecture,Review system architecture decisions,review architecture|đánh giá kiến trúc,architect,psm/workflows/1-design/review-architecture/workflow.md
+setup-new-service,Set up a new production service from scratch,setup new service|tạo service mới,sre,psm/workflows/2-build/setup-new-service/workflow.md
+incident-response,Triage and resolve production incidents,incident|sự cố production,sre,psm/workflows/3-run/incident-response/workflow.md
+production-readiness-review,Validate service production readiness,PRR|production readiness,sre,psm/workflows/3-run/production-readiness-review/workflow.md
+security-audit,Security review for production service,security audit|kiểm tra bảo mật,security,psm/workflows/4-cross/security-audit/workflow.md
+mlops-deployment,Deploy ML model to production,deploy model|triển khai model,mlops,psm/workflows/5-specialized/mlops-deployment/workflow.md
+quick-diagnose,Quick production issue diagnosis,diagnose|chẩn đoán nhanh,sre,psm/workflows/quick-flow/quick-diagnose/workflow.md
+quick-review,Quick code/config review,quick review,architect,psm/workflows/quick-flow/quick-review/workflow.md
+party-mode,Multi-agent PSM team discussion,party mode|team discussion|thảo luận với team,prod-master,core/workflows/psm-party-mode/workflow.md

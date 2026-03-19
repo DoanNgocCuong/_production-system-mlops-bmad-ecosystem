@@ -1,0 +1,12 @@
+item_type,name,description,trigger_phrases,domains,file_path
+agent,Khang,SRE / Reliability Engineer - incident response and operational resilience,khang @khang reliability,SRE/Incident-Response,./psm/teams/default-team.yaml
+agent,Minh,Architect / System Designer - architecture and scalability,minh @minh architecture,Architecture/Design,./psm/teams/default-team.yaml
+agent,Hà,Security & Compliance Officer - threat modeling and data protection,ha @ha security,Security/Compliance,./psm/teams/default-team.yaml
+agent,Linh,Product & Operations Lead - user impact and business alignment,linh @linh operations,Product/Operations,./psm/teams/default-team.yaml
+workflow,Incident Response,Structured incident analysis and response coordination,incident start responder,Incident-Response,./psm/workflows/3-run/incident-response/workflow.md
+workflow,Production Readiness Review,Comprehensive PRR assessment across 9 dimensions,prr readiness review,Reliability/Deployment,./psm/workflows/3-run/production-readiness-review/workflow.md
+workflow,PSM Party Mode,Multi-agent discussion with Khang, Minh, Hà, Linh,party mode|team discussion|thảo luận với team,All-Domains,./core/workflows/psm-party-mode/workflow.md
+data,Severity Matrix,SEV1-4 incident severity classification criteria,severity levels,Incident-Response,./psm/data/severity-matrix.csv
+data,PRR Dimensions,Production Readiness Review 9-dimensional assessment framework,prr framework,Reliability/Deployment,./psm/data/prr-dimensions.csv
+config,PSM Configuration,Production Systems Management module configuration,config,System,./psm/config.yaml
+config,Core Configuration,Core module configuration and defaults,config,System,./core/config.yaml

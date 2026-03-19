@@ -1,0 +1,15 @@
+name: mlops-deployment
+description: "ML model deployment and MLOps pipeline management"
+module: psm
+type: workflow
+lead_agent: mlops
+skills_used:
+  - "5.30"
+  - "5.31"
+  - "5.32"
+steps_count: 8
+estimated_duration: "4 hours"
+trigger_phrases:
+  - "mlops deployment"
+  - "model deployment"
+  - "ml pipeline"

@@ -1,0 +1,16 @@
+name: incident-response
+description: "Structured incident response and mitigation procedures"
+module: psm
+type: workflow
+lead_agent: sre
+skills_used:
+  - "5.10"
+  - "5.11"
+  - "5.12"
+  - "5.13"
+steps_count: 12
+estimated_duration: "2 hours"
+trigger_phrases:
+  - "incident response"
+  - "production incident"
+  - "emergency response"
