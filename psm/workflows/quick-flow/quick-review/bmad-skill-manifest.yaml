@@ -1,0 +1,14 @@
+name: quick-review
+description: "Fast review workflow for quick feedback and validation"
+module: psm
+type: workflow
+lead_agent: architect
+skills_used:
+  - "5.01"
+  - "5.02"
+steps_count: 4
+estimated_duration: "45 minutes"
+trigger_phrases:
+  - "quick review"
+  - "fast review"
+  - "quick feedback"

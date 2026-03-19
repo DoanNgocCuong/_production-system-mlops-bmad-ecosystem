@@ -1,0 +1,40 @@
+name: bmad-production-systems
+module: psm
+version: "1.0"
+created_date: 2026-03-18
+description: BMAD Production Systems Management - multi-agent SRE workflow system
+
+module_paths:
+  tasks: ./core/tasks
+  workflows: ./core/workflows
+  agents: ./psm/teams
+  data: ./psm/data
+  web_bundles: ./web-bundles
+
+module_components:
+  core:
+    path: ./core
+    description: Core tasks and workflows
+
+  psm:
+    path: ./psm
+    description: Production systems management agents and workflows
+
+entry_point: ./core/module-help.csv
+help_catalog_core: ./core/module-help.csv
+help_catalog_psm: ./psm/module-help.csv
+
+enabled_features:
+  - advanced_elicitation
+  - knowledge_lookup
+  - party_mode
+  - multi_agent_workflows
+  - incident_analysis
+
+agents_available:
+  - khang
+  - minh
+  - ha
+  - linh
+
+language: en

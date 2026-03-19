@@ -1,0 +1,7 @@
+canonicalId,name,description,module,path,install_to_bmad
+production-checklist,Production Checklist,Comprehensive checklist for production deployments,core,core/tasks/production-checklist,true
+adversarial-review,Adversarial Review,Critical adversarial analysis and red-teaming,core,core/tasks/adversarial-review,true
+advanced-elicitation,Advanced Elicitation,Deep knowledge extraction and requirement elicitation,core,core/tasks/advanced-elicitation,true
+incident-analysis,Incident Analysis,Post-incident analysis and root cause investigation,core,core/tasks/incident-analysis,true
+risk-assessment,Risk Assessment,Comprehensive risk assessment framework,core,core/tasks/risk-assessment,true
+knowledge-lookup,Knowledge Lookup,Fast knowledge base search and lookup,core,core/tasks/knowledge-lookup,true

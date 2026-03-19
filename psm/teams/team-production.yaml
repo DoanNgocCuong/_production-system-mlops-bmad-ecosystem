@@ -1,0 +1,10 @@
+bundle:
+  name: Team Production Systems
+  icon: ⚙️
+  description: Team capable of production operations, incident response, architecture review, security audit, and MLOps deployment.
+agents:
+  - architect
+  - sre
+  - security
+  - mlops
+party: "./default-party.csv"

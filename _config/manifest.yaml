@@ -1,0 +1,25 @@
+installation:
+  version: 2.0.0
+  installDate: 2026-03-18
+  basedOn: BMAD-METHOD v6.2
+
+modules:
+  - name: core
+    version: 2.0.0
+    source: built-in
+    description: "Reusable tasks, master orchestrator, party mode"
+    tasks_count: 6
+    workflows_count: 1
+    agents_count: 1
+
+  - name: psm
+    version: 2.0.0
+    source: built-in
+    description: "Production Systems Module — 4 agents, 8 workflows, 20 skill domains"
+    agents_count: 4
+    workflows_count: 8
+    skills_count: 20
+
+ides:
+  - claude-code
+  - cursor

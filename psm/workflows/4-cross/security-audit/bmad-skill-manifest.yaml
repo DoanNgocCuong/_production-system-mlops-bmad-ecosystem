@@ -1,0 +1,15 @@
+name: security-audit
+description: "Comprehensive security audit and vulnerability assessment"
+module: psm
+type: workflow
+lead_agent: security
+skills_used:
+  - "5.20"
+  - "5.21"
+  - "5.22"
+steps_count: 7
+estimated_duration: "5 hours"
+trigger_phrases:
+  - "security audit"
+  - "vulnerability assessment"
+  - "security review"

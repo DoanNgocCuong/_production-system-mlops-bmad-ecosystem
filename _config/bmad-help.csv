@@ -1,0 +1,16 @@
+question_pattern,response_type,target_path,description
+what should I do next,guidance,core/agents/prod-master.md,Main production master guidance
+how do I start,tutorial,core/agents/prod-master.md,Getting started with BMAD
+list workflows,menu,psm/agents/bmad-skill-manifest.yaml,Show all available workflows
+list agents,menu,_config/agent-manifest.csv,Show all available agents
+help with incident,workflow,psm/workflows/3-run/incident-response/workflow.md,Incident response workflow
+help with architecture,workflow,psm/workflows/1-design/review-architecture/workflow.md,Architecture review workflow
+help with setup,workflow,psm/workflows/2-build/setup-new-service/workflow.md,New service setup workflow
+help with security,workflow,psm/workflows/4-cross/security-audit/workflow.md,Security audit workflow
+help with mlops,workflow,psm/workflows/5-specialized/mlops-deployment/workflow.md,MLOps deployment workflow
+quick diagnosis,workflow,psm/workflows/quick-flow/quick-diagnose/workflow.md,Quick diagnostic workflow
+quick review,workflow,psm/workflows/quick-flow/quick-review/workflow.md,Quick review workflow
+production readiness,workflow,psm/workflows/3-run/production-readiness-review/workflow.md,Production readiness review
+task manifest,reference,_config/task-manifest.csv,List of all core tasks
+skills available,reference,_config/skill-manifest.csv,List of all skills
+agents available,reference,_config/agent-manifest.csv,List of all configured agents

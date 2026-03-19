@@ -1,0 +1,14 @@
+name: quick-diagnose
+description: "Fast diagnostic workflow for rapid troubleshooting"
+module: psm
+type: workflow
+lead_agent: sre
+skills_used:
+  - "5.10"
+  - "5.11"
+steps_count: 5
+estimated_duration: "30 minutes"
+trigger_phrases:
+  - "quick diagnosis"
+  - "fast diagnose"
+  - "what's wrong"

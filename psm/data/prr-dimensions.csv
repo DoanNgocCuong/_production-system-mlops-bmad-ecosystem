@@ -1,0 +1,10 @@
+dimension_name,description,skill_reference,weight_percent
+Reliability,Availability targets met; failover/recovery tested; cascading failure analysis complete,production-checklist + risk-assessment,15
+Scalability,Capacity planning; load testing; horizontal scaling validated; performance SLOs defined,incident-analysis + risk-assessment,12
+Observability,Metrics exposed; structured logging; distributed tracing; alerts configured; dashboards ready,production-checklist,15
+Security,AuthN/AuthZ enforced; secrets managed; encryption configured; threat modeling complete; compliance verified,adversarial-review + risk-assessment,18
+Operational Readiness,Runbook written; on-call procedures defined; incident response plan tested,production-checklist,12
+Change Management,Rollback procedure documented; canary/staged rollout plan; stakeholders notified,risk-assessment,10
+Documentation,Architecture diagram; dependency map; runbook; change procedure; contact list,production-checklist,10
+Incident Response,Post-incident review process; blameless culture; learning loop; metrics tracked,incident-analysis,5
+Cost & Resource Optimization,Right-sizing; cost monitoring; resource allocation justified; waste identified,adversarial-review,3

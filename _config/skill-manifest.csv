@@ -1,0 +1,21 @@
+id,name,group,description,path,skill_file
+5.01,System Architecture & Design Fundamentals,DESIGN,Core principles of designing scalable production systems,../5 - Production Systems & MLOps,5.01 - SKILL.md
+5.02,API & Interface Design,DESIGN,Designing robust and extensible APIs for production systems,../5 - Production Systems & MLOps,5.02 - SKILL.md
+5.03,Data Models & Database Design,DESIGN,Choosing and designing databases for production workloads,../5 - Production Systems & MLOps,5.03 - SKILL.md
+5.04,Infrastructure & DevOps,BUILD,Building and managing production infrastructure,../5 - Production Systems & MLOps,5.04 - SKILL.md
+5.05,CI/CD & Release Management,BUILD,Continuous integration and deployment pipelines,../5 - Production Systems & MLOps,5.05 - SKILL.md
+5.06,Service Deployment & Orchestration,BUILD,Deploying and managing containerized services,../5 - Production Systems & MLOps,5.06 - SKILL.md
+5.07,Observability & Monitoring,RUN,Instrumenting systems for visibility and insights,../5 - Production Systems & MLOps,5.07 - SKILL.md
+5.08,Alerting & On-Call Management,RUN,Setting up alerts and managing production on-call,../5 - Production Systems & MLOps,5.08 - SKILL.md
+5.09,Incident Response & Post-Mortems,RUN,Responding to production incidents effectively,../5 - Production Systems & MLOps,5.09 - SKILL.md
+5.10,SLO & Error Budget Management,RUN,Defining and maintaining reliability targets,../5 - Production Systems & MLOps,5.10 - SKILL.md
+5.11,Security & Infrastructure Hardening,CROSS,Securing production systems and infrastructure,../5 - Production Systems & MLOps,5.11 - SKILL.md
+5.12,Configuration & Environment Management,CROSS,Managing configuration across environments,../5 - Production Systems & MLOps,5.12 - SKILL.md
+5.13,Documentation & Knowledge Management,CROSS,Creating and maintaining system documentation,../5 - Production Systems & MLOps,5.13 - SKILL.md
+5.14,Compliance & Risk Management,CROSS,Managing compliance and production risks,../5 - Production Systems & MLOps,5.14 - SKILL.md
+5.15,MLOps & Model Management,SPECIALIZED,Deploying and managing ML models in production,../5 - Production Systems & MLOps,5.15 - SKILL.md
+5.16,Caching & Performance Optimization,SPECIALIZED,Optimizing system performance through caching strategies,../5 - Production Systems & MLOps,5.16 - SKILL.md
+5.17,Async Processing & Background Jobs,SPECIALIZED,Building reliable asynchronous systems,../5 - Production Systems & MLOps,5.17 - SKILL.md
+5.18,Cost Optimization & FinOps,SPECIALIZED,Optimizing cloud costs and infrastructure spending,../5 - Production Systems & MLOps,5.18 - SKILL.md
+5.19,Chaos Engineering & Resilience Testing,SPECIALIZED,Testing system resilience through controlled chaos,../5 - Production Systems & MLOps,5.19 - SKILL.md
+5.20,Architecture Evolution & Migration,SPECIALIZED,Evolving architectures and managing major migrations,../5 - Production Systems & MLOps,5.20 - SKILL.md

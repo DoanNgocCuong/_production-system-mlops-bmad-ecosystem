@@ -1,0 +1,55 @@
+module: psm
+agents:
+  - name: architect
+    canonicalId: psm-architect
+    display_name: "Khang"
+    type: agent
+    skills: ["5.01", "5.02", "5.03"]
+    workflows:
+      - review-architecture
+      - quick-review
+    menu_items:
+      - "[RA] Review Architecture"
+      - "[DA] Design API"
+      - "[DD] Database Design"
+
+  - name: sre
+    canonicalId: psm-sre
+    display_name: "Minh"
+    type: agent
+    skills: ["5.04", "5.05", "5.06", "5.07", "5.08", "5.09", "5.10"]
+    workflows:
+      - incident-response
+      - production-readiness-review
+      - setup-new-service
+      - quick-diagnose
+    menu_items:
+      - "[IR] Incident Response"
+      - "[PR] Production Readiness Review"
+      - "[NS] New Service Setup"
+      - "[QD] Quick Diagnose"
+
+  - name: security
+    canonicalId: psm-security
+    display_name: "Hà"
+    type: agent
+    skills: ["5.11", "5.12", "5.13", "5.14", "5.18"]
+    workflows:
+      - security-audit
+    menu_items:
+      - "[SA] Security Audit"
+      - "[IR] Infrastructure Review"
+      - "[CC] Compliance Check"
+
+  - name: mlops
+    canonicalId: psm-mlops
+    display_name: "Linh"
+    type: agent
+    skills: ["5.15", "5.16", "5.17", "5.18", "5.19", "5.20"]
+    workflows:
+      - mlops-deployment
+    menu_items:
+      - "[MD] Deploy ML Model"
+      - "[PO] Performance Optimization"
+      - "[CT] Chaos Test"
+      - "[CR] Cost Review"

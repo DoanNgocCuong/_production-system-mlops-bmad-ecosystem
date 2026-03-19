@@ -1,0 +1,15 @@
+name: setup-new-service
+description: "Guide for setting up and configuring new services"
+module: psm
+type: workflow
+lead_agent: architect
+skills_used:
+  - "5.02"
+  - "5.03"
+  - "5.04"
+steps_count: 10
+estimated_duration: "6 hours"
+trigger_phrases:
+  - "setup new service"
+  - "new service configuration"
+  - "initialize service"
